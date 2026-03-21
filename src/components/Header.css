@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* adjust as needed */
+  background: rgba(15,15,16,0.95); /* semi-transparent dark */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Header title */
+.header h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #1db954; /* green accent */
+}
+
+/* Navigation links */
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.header nav a:hover {
+  color: #1db954;
+}

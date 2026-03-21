@@ -1,0 +1,9 @@
+/* html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background: #0f0f10;
+  color: #fff;
+  overflow: hidden; /* prevent body scroll, use page scrolls inside content */
+/* }  */
